@@ -1,5 +1,5 @@
 # solomini-wp-theme
-Minimalist WordPress theme for personal website/blog
+Minimalist WordPress theme for personal website/blog.
 
 Everything can be added dynamically via the WordPress panel, except the icon menu, which is hardcoded.
 

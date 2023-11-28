@@ -1,0 +1,274 @@
+/*
+Theme Name: Solomini
+Theme URI: N/A
+Author: Boris F.
+Author URI: https://...
+Description: Minimalist blog theme
+Version: 1.0
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: solomini
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+:root {
+    --main-text-color: rgb(55, 53, 47);
+    --second-text-color: #505050;
+}
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+html, body {
+    background-color: #202020;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4vh;
+}
+
+body {
+    padding-bottom: 4vh;
+}
+
+/*
+* LINK/MENU
+*/
+a {
+    color: #F5FBEF !important;
+    font-weight: 600;
+}
+
+h2, hr {
+    color: #F5FBEF;
+}
+
+.icons a,
+.icons a::after {
+    color: #F5FBEF;
+    text-decoration: none;
+}
+
+.icons a i:hover {
+    color: #F5FBEF;
+    opacity:0.8;
+}
+
+#filter-menu a,
+#filter-menu a::after {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #F5FBEF;
+    text-decoration: none;
+}
+#filter-menu a:hover:not(.active) {
+    background-color: #525252;
+}
+
+#filter-menu .active {
+    background-color: #3D3D3D;
+}
+
+#top-menu a,
+#top-menu a::after {
+    margin: 1rem;
+    color: #F5FBEF;
+    text-decoration: none;
+}
+#top-menu a:hover {
+    text-decoration: underline;
+}
+
+/*
+* FOOTER
+*/
+#ttr_footer {
+    color: #F5FBEF;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+#ttr_footer span {
+    font-size: 0.7rem;
+}
+
+/*
+* TAGS
+*/
+.tag {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.tag-game {
+    background-color: #e1d3f8;
+}
+
+.tag-data {
+    background-color: #cce4f9;
+}
+
+.tag-web {
+    background-color: #fbeecc;
+}
+
+.tag-project {
+    background-color: #fddfcc;
+}
+
+.tag-blog {
+    background-color: #d7d7d5;
+}
+
+.main-content {
+    text-align: left;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.icons {
+    font-size: 1.5em;
+}
+
+.primary-t {
+    font-size: 3rem;
+    color: #F5FBEF;
+}
+
+.second-t {
+    color: #F5FBEF;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.hide-center-content {
+    display: none;
+}
+
+.post-thumbnail img {
+    border-radius: 3%;
+}
+
+.post-content:hover h2,
+.post-content:hover p,
+.post-content:hover .tag {
+    cursor: pointer;
+}
+
+.post-content:hover h2 {
+    text-decoration: underline;
+}
+
+.post-thumbnail:hover {
+    cursor: pointer;
+}
+
+.text-sm p {
+    color: #F5FBEF;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+}
+
+.back-link {
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.sm-divider {
+    border-top: 3px solid #bbb;
+    width: 40px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.meta h1 {
+    color: #F5FBEF;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.meta p {
+    color: #F5FBEF;
+    opacity: 0.95;
+}
+
+.post-page-content p {
+    color: #F5FBEF;
+    opacity: 0.95;
+}
+
+.more-link {
+    color: var(--second-text-color);
+    opacity: 0.6;
+}
+
+
+/*
+* SEARCH FORM
+*/
+.searchform {
+    margin: 0; 
+}
+
+.searchform input[type="text"] {
+    background-color: #202020;
+    color: #F5FBEF;
+    opacity: 0.95;
+    border: none; 
+    padding: 10px; 
+    width: 200px;
+    transition: width 0.3s;
+}
+
+.searchform input[type="text"]:focus {
+    outline: none;
+    width: 300px; 
+}
+
+.searchform input[type="text"]::placeholder {
+    color: #999; 
+}
+
+.searchform input[type="submit"] {
+    display: none;
+}
+
+
+/*
+* MEDIA QUERIES
+*/
+
+@media only screen and (max-width: 450px) {
+    .post-thumbnail {
+        display: none;
+    }
+
+    .post {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 100%;
+    }
+}

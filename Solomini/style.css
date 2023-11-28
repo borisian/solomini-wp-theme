@@ -45,7 +45,7 @@ a {
     font-weight: 600;
 }
 
-h2, hr {
+h2, h3, hr {
     color: #F5FBEF;
 }
 
@@ -210,7 +210,7 @@ h2, hr {
     margin-bottom: 1rem;
 }
 
-.meta p {
+p {
     color: #F5FBEF;
     opacity: 0.95;
 }

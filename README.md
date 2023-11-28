@@ -2,7 +2,9 @@
 Minimalist WordPress theme for personal website/blog
 
 Everything can be added dynamically via the WordPress panel, except the icon menu, which is hardcoded.
+
 There's also no Privacy Policy or Terms and Conditions Agreement page. 
+
 The theme meets all the mandatory requirements of the WordPress Theme Checker.
 
 ![solomini-screen](https://github.com/Bforis/solomini-wp-theme/assets/34284864/2973f366-097d-4120-a492-fc66058869c3)

@@ -16,8 +16,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 :root {
-    --main-text-color: rgb(55, 53, 47);
+    --background-color: #202020;
+    --text-color: #F5FBEF;
     --second-text-color: #505050;
+    --link-color: #F39B6D;
 }
 
 * {
@@ -25,7 +27,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 html, body {
-    background-color: #202020;
+    background-color: var(--background-color);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -40,23 +42,23 @@ body {
 /*
 * LINK/MENU
 */
-a {
-    color: #F5FBEF !important;
+a:not(.icons a) {
+    color: var(--link-color) !important;
     font-weight: 600;
 }
 
 h2, h3, hr {
-    color: #F5FBEF;
+    color: var(--text-color);
 }
 
 .icons a,
 .icons a::after {
-    color: #F5FBEF;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .icons a i:hover {
-    color: #F5FBEF;
+    color: var(--text-color);
     opacity:0.8;
 }
 
@@ -64,7 +66,7 @@ h2, h3, hr {
 #filter-menu a::after {
     font-size: .875rem;
     line-height: 1.25rem;
-    color: #F5FBEF;
+    color: var(--text-color);
     text-decoration: none;
 }
 #filter-menu a:hover:not(.active) {
@@ -78,7 +80,7 @@ h2, h3, hr {
 #top-menu a,
 #top-menu a::after {
     margin: 1rem;
-    color: #F5FBEF;
+    color: var(--text-color);
     text-decoration: none;
 }
 #top-menu a:hover {
@@ -89,7 +91,7 @@ h2, h3, hr {
 * FOOTER
 */
 #ttr_footer {
-    color: #F5FBEF;
+    color: var(--text-color);
     position: absolute;
     text-align: center;
     width: 100%;
@@ -146,11 +148,11 @@ h2, h3, hr {
 
 .primary-t {
     font-size: 3rem;
-    color: #F5FBEF;
+    color: var(--text-color);
 }
 
 .second-t {
-    color: #F5FBEF;
+    color: var(--text-color);
     opacity: 0.9;
     margin: 0;
 }
@@ -182,7 +184,7 @@ h2, h3, hr {
 }
 
 .text-sm p {
-    color: #F5FBEF;
+    color: var(--text-color);
     opacity: 0.8;
     font-size: 0.9rem;
     display: -webkit-box;
@@ -192,8 +194,7 @@ h2, h3, hr {
 }
 
 .back-link {
-    color: black;
-    opacity: 0.5;
+    opacity: 0.9;
     text-decoration: none;
 }
 
@@ -205,24 +206,24 @@ h2, h3, hr {
 }
 
 .meta h1 {
-    color: #F5FBEF;
+    color: var(--text-color);
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 p {
-    color: #F5FBEF;
+    color: var(--text-color);
     opacity: 0.95;
 }
 
 .post-page-content p {
-    color: #F5FBEF;
+    color: var(--text-color);
     opacity: 0.95;
 }
 
 .more-link {
     color: var(--second-text-color);
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 
@@ -235,7 +236,7 @@ p {
 
 .searchform input[type="text"] {
     background-color: #202020;
-    color: #F5FBEF;
+    color: var(--text-color);
     opacity: 0.95;
     border: none; 
     padding: 10px; 

@@ -8,7 +8,8 @@ There's also no Privacy Policy or Terms and Conditions Agreement page.
 The theme meets all the mandatory requirements of the WordPress Theme Checker.
 Only WordPress extension used: Classic Editor.
 
-![solomini-screen](https://github.com/Bforis/solomini-wp-theme/assets/34284864/2973f366-097d-4120-a492-fc66058869c3)
+![solomini-screen](https://github.com/Bforis/solomini-wp-theme/assets/34284864/1e604682-3dbb-48e8-a719-81618eb97b5b)
+
 
 Dependencies : 
 - Bootstrap (5.3)

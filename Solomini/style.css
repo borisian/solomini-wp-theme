@@ -257,6 +257,17 @@ p {
     display: none;
 }
 
+/* Prevent white box on input */
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px var(--background-color) inset;
+    -webkit-text-fill-color: var(--text-color);
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px var(--background-color) inset;
+    -webkit-text-fill-color: var(--text-color);
+} 
+
 
 /*
 * MEDIA QUERIES

@@ -10,8 +10,7 @@ Only WordPress extension used: **Classic Editor.**
 
 **For each new tag, you need to add its corresponding style.**
 
-![solomini-screen](https://github.com/Bforis/solomini-wp-theme/assets/34284864/1e604682-3dbb-48e8-a719-81618eb97b5b)
-
+![screenshot-solomini](https://github.com/Bforis/solomini-wp-theme/assets/34284864/dad439a3-2168-4ff1-aa72-e22be5b24e96)
 
 Dependencies : 
 - Bootstrap (5.3)

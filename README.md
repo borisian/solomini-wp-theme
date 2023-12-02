@@ -1,9 +1,8 @@
 # solomini-wp-theme
 Minimalist WordPress theme for personal website/blog.
-
 Everything can be added dynamically via the WordPress panel, **except the icon menu, which is hardcoded.**
 
-There's also no Privacy Policy or Terms and Conditions Agreement page. 
+There's also no Privacy Policy or Terms and Conditions Agreement page. For add color with new tag, see style.css (tag-"tagname").
 
 The theme meets all the mandatory requirements of the WordPress Theme Checker.
 Only WordPress extension used: **Classic Editor.**
